@@ -1,10 +1,10 @@
 # BookMyConsult
 
-BookMyConsult is a web application designed to streamline the process of booking consultations with doctors. Built using the MERN stack (MongoDB, Express.js, React, and Node.js) and Docker for containerization, this application provides a platform for patients to book appointments with available doctors, search for doctors by specialization, and manage their appointments. Administrators have specific roles to manage doctor information within the application.
+BookMyConsult is a web application designed to streamline the process of booking consultations with doctors. Built using the MERN stack (MongoDB, Express.js, React, and Node.js) and Docker for containerization, this application provides a platform for patients to book appointments with available doctors, search for doctors by specialization, and manage their appointments. It uses Role-Based Access Control (RBAC) with three roles: Admin, Patients (User). The application is built with the MERN stack and Docker for seamless functionality, ensuring a secure and efficient experience for all users.
 
-## Features
+##🔑 FEATURES
 
-### For Patients:
+###👤 For Patients:
 - **Login & Signup**: Secure user authentication.
 - **View Available Doctors**: Browse a list of available doctors and their specializations.
 - **Search by Specialization**: Find doctors based on their area of expertise.
@@ -12,13 +12,13 @@ BookMyConsult is a web application designed to streamline the process of booking
 - **Cancel Appointments**: Cancel any booked appointments easily.
 - **Edit Profile**: Update personal profile information.
 
-### For Administrators:
+###🔒 For Administrators:
 - **Administrator Login**: Secure admin authentication through admin passphrase.
 - **Add Doctors**: Add new doctors to the application, specifying their specialization and available time slots.
 - **Edit Doctor Details**: Modify existing doctor information, including available dates and times.
 - **Delete Doctors**: Remove doctors from the system as needed.
 
-- **Admin Email**: admin1@gmail.com
+- **Admin Email**: admin@gmail.com
 - **Admin Password**: admin
 
 ## Tech Stack
@@ -28,9 +28,14 @@ BookMyConsult is a web application designed to streamline the process of booking
 - **Database:** MongoDB
 - **Containerization:** Docker
 
-## GETTING STARTED
+## 🛠️ Other Tools
+
+- **JWT (JSON Web Tokens):** Secures user authentication and manages sessions.
+- **RBAC:** Limits functionality based on roles (admin, Patients(user)).
+
+## 🚀 GETTING STARTED
 ```
-1.Clone the Repository
+1.Clone the Repository  git clone <repository-url>
 
 2.Docker Setup
       docker-compose up --build
@@ -43,9 +48,6 @@ http://localhost:3000
 ```
 **to view the application.**
 
-### SCREEN RECORD LINK
-
-- **Link**: https://drive.google.com/file/d/16NDvx9Ph4imzMyURUrw575iWIwvlxCvb/view?usp=sharing
 
 
 

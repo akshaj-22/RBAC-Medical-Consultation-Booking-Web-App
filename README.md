@@ -2,9 +2,9 @@
 
 BookMyConsult is a web application designed to streamline the process of booking consultations with doctors. Built using the MERN stack (MongoDB, Express.js, React, and Node.js) and Docker for containerization, this application provides a platform for patients to book appointments with available doctors, search for doctors by specialization, and manage their appointments. It uses Role-Based Access Control (RBAC) with three roles: Admin, Patients (User). The application is built with the MERN stack and Docker for seamless functionality, ensuring a secure and efficient experience for all users.
 
-##🔑 FEATURES
+## 🔑 FEATURES
 
-###👤 For Patients:
+### 👤 For Patients:
 - **Login & Signup**: Secure user authentication.
 - **View Available Doctors**: Browse a list of available doctors and their specializations.
 - **Search by Specialization**: Find doctors based on their area of expertise.
@@ -12,7 +12,7 @@ BookMyConsult is a web application designed to streamline the process of booking
 - **Cancel Appointments**: Cancel any booked appointments easily.
 - **Edit Profile**: Update personal profile information.
 
-###🔒 For Administrators:
+### 🔒 For Administrators:
 - **Administrator Login**: Secure admin authentication through admin passphrase.
 - **Add Doctors**: Add new doctors to the application, specifying their specialization and available time slots.
 - **Edit Doctor Details**: Modify existing doctor information, including available dates and times.
